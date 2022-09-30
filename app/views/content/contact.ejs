@@ -1,0 +1,52 @@
+<div class="container">
+    <h1>My Contact Information</h1>
+    <h2>In case you need to contact me, for one reason or another</h2>
+    <br><br>
+    <div class="panel panel-default" style="border-style:solid; border-color:rgb(0, 0, 0); border-width:3px;">
+        <div class="panel-heading">
+            <h1>        </h1><h4>Contact Info</h4>
+        </div>
+        <div class="panel-body">
+            <h6>Phone Number: 613-608-7005</h6>
+            <h6>Email Address: tmercie2@my.centennialcollege.ca</h6>
+            <h6>Address: 129 Larkin Drive, Ottawa, Ontario</h6>
+            <h6>Postal Code: K2J 1J1</h6>
+        </div>
+    </div>
+    <br><br>
+    <form>
+        <h4>Contact Form</h4>
+        <br> 
+        Select your gender.
+        <br> <input type="radio" value="male" name="type" id="sex">
+        <label for="male">Male</label>
+        <br> <input type="radio" value="female" name="type" id="sex">
+        <label for="female">Female</label>
+        <br> <input type="radio" value="other" name="type" id="sex">
+        <label for="other">Other (Please Specify):</label>
+        <input type="text" name="sex" id="s" list="sex">
+        <br> <br>
+        Age (in years): <input type="number" name="age" id="age" required>
+        <br> <br>
+        First Name:
+        <input type="text" name="firstname" id="fn" list="firstn" required>
+        <br> <br>
+        Last Name:
+        <input type="text" name="lastname" id="ln" list="lastn" required>
+        <br> <br>
+        Email Address:
+        <input type="text" name="email" id="em" list="email" required>
+        <br> <br>
+        Reason for Contact:
+        <input type="text" name="reason" id="rsn" list="reason" required>
+        <br> <br>
+        Message:
+        <input type="text" name="message" id="msg" list="message" required>
+        <br> <br>
+        <hr style="border-style:solid; border-color:brown; border-width:3px;">
+        <br> <br>
+        <input type="button" value="Submit" id="submit" onclick="location.href='/home';"> <input type="reset">
+    </form>
+    <br> <br>
+    <br> <br>
+</div>
